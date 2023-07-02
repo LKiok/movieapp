@@ -1,0 +1,116 @@
+.body {
+    background-color: black;
+}  
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(42, 41, 41, 0.953);
+    overflow-x: hidden;
+    padding-top: 20px;
+    box-shadow: 0 0 8px 0 rgb(231, 115, 14);
+    border-radius: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: red;
+    display: block;
+}
+
+.sidenav a.active {
+    color: #ace131;
+    font-weight: bold;
+    font-style: italic;
+}
+.text {
+    margin-left: 200px; 
+    padding: 20px;
+    color: orangered;
+
+}
+video {
+    width: 100%;
+    height: 100% !important;
+}
+.search {
+    margin-bottom: 20px;
+}
+.search input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 3px;
+}
+h1 {
+    color: #ace131;
+}
+.li {
+    color: #ace131;
+}
+.search button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #ace131;
+    color: #fff;
+    cursor: pointer;
+}
+.watch {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin-top: 48rem;
+}
+.active {
+  display: block;
+  
+}
+.watch img {
+width: 17rem;
+margin-left: 13rem;
+}
+.watch h3 {
+  color: #d81212;
+  margin-left: 13rem;
+}
+.watch p {
+  color: #38c012;
+  margin-left: 13rem;
+}
+.button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #ace131;
+    color: #fff;
+    cursor: pointer; 
+}
+
+#background-video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 100%;
+  margin-left: 13rem;
+  margin-top: -10rem;
+}
+
+#trailer-video {
+  display: none;
+}
+
+#poster {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
